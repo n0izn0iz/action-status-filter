@@ -15,7 +15,7 @@ Toolkit.run(
     const {statusContext, statusState} = init(tools);
     const payload = tools.context.payload;
 
-    tools.log("Status payload:", statusPayload);
+    tools.log("Status payload:", payload);
     tools.log("Required status context:", statusContext);
     tools.log("Required status state:", statusState);
 
